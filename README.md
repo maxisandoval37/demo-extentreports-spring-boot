@@ -4,6 +4,7 @@
 
 Asegúrate de crear una rama llamada `gh-pages` en tu repositorio.
 
+
 ## 🔑 2) Generar Tokens
 
 ### 📌 Crear un Token de Acceso Personal (PAT)
@@ -14,6 +15,7 @@ Asegúrate de crear una rama llamada `gh-pages` en tu repositorio.
 ### 📌 Agregar el Token como un Secret en el Repositorio
 1. Ir a **REPO -> Settings -> Secrets and variables -> Actions -> New repository secret**
 2. Crear un secreto con el nombre `TOKEN_APP` y pegar el token generado
+
 
 ## ⚙️ 3) Configurar GitHub Actions (`.github/workflows/maven.yml`)
 
@@ -53,6 +55,14 @@ jobs:
         github_token: ${{ secrets.TOKEN_APP }}
         publish_dir: ./gh-pages
 ```
+
+
+## 🛠️ 4) Crear y Extender la Clase BaseTest
+
+Es necesario crear y extender de la siguiente clase para los tests con **extentreports**:
+
+🔗 [BaseTest.java](https://github.com/maxisandoval37/demo-extentreports-spring-boot/blob/main/src/test/java/ar/dev/maxisandoval/demoextentreportsspringboot/BaseTest.java)
+
 
 ## 🌍 Acceder a la Página Generada
 
