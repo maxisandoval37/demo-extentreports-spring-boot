@@ -34,6 +34,7 @@ public class BaseTest {
             Duration duration = Duration.between(startTime, endTime);
             test.info("✅ Test finalizado: " + testInfo.getDisplayName());
             test.info("⏳ Duración: " + duration.toMillis() + " ms");
+            test.addScreenCaptureFromPath("https://raw.githubusercontent.com/maxisandoval37/maxisandoval37/refs/heads/master/images/sonic.gif");
         }
     }
 
