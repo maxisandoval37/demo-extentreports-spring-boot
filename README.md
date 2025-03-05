@@ -2,6 +2,9 @@
 
 ![image](https://github.com/user-attachments/assets/8ef2efb6-d466-48d2-b5b8-6aaca9eab9be)
 
+<p align="center"> 
+  <img src="https://github.com/user-attachments/assets/6873e721-f7d9-49ea-8c52-e855aa9ea365"/>
+</p>
 
 ## 📌 1) Crear rama `gh-pages`
 
@@ -73,8 +76,6 @@ Es necesario crear y extender de la siguiente clase para los tests con **extentr
 - Reemplaza con tu usuario y repositorio: `https://<tu-usuario-github>.github.io/<nombre-repositorio>`
 
 ![image](https://github.com/user-attachments/assets/fbe4e23d-c6f7-4a5f-a515-ed4c410bf9d3)
-
-
 
 
 ## 📖 Documentación Relacionada
