@@ -1,5 +1,8 @@
 # 🚀 Configuración de GitHub Pages con Maven, GitHub Actions y Extent Reports (para los tests)
 
+![image](https://github.com/user-attachments/assets/8ef2efb6-d466-48d2-b5b8-6aaca9eab9be)
+
+
 ## 📌 1) Crear rama `gh-pages`
 
 Asegúrate de crear una rama llamada `gh-pages` en tu repositorio.
@@ -69,6 +72,11 @@ Es necesario crear y extender de la siguiente clase para los tests con **extentr
 - [CLICK 👈](https://maxisandoval37.github.io/demo-extentreports-spring-boot/)
 - Reemplaza con tu usuario y repositorio: `https://<tu-usuario-github>.github.io/<nombre-repositorio>`
 
+![image](https://github.com/user-attachments/assets/fbe4e23d-c6f7-4a5f-a515-ed4c410bf9d3)
+
+
+
+
 ## 📖 Documentación Relacionada
 
 🔗 [Publicar paquetes Java con Maven en GitHub Actions](https://docs.github.com/en/actions/publishing-packages/publishing-java-packages-with-maven)
@@ -78,4 +86,6 @@ Es necesario crear y extender de la siguiente clase para los tests con **extentr
 ## Información Adicional
 Para cualquier información adicional o consultas: <maxisandoval98@gmail.com>
 
-**¡Muchas gracias! 🦔**
+<p align="center"><b>¡Muchas gracias! 🦔</b></p>
+
+![image](https://github.com/user-attachments/assets/61e74945-a287-4266-86c9-faac81d3bfb5)
