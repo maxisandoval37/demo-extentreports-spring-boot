@@ -4,11 +4,21 @@ import com.aventstack.extentreports.*;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import org.junit.jupiter.api.*;
 import java.time.*;
+import java.util.Properties;
 
 public class BaseTest {
+
     protected static ExtentReports extent = ExtentManager.getInstance();
     protected ExtentTest test;
     private Instant startTime;
+
+    @BeforeAll
+    static void setupGlobalInfo() {
+        Properties properties = System.getProperties();
+        extent.setSystemInfo("Sistema Operativo", properties.getProperty("os.name"));
+        extent.setSystemInfo("Versión de Java", properties.getProperty("java.version"));
+        extent.setSystemInfo("Usuario", properties.getProperty("user.name"));
+    }
 
     @BeforeEach
     void setupTest(TestInfo testInfo) {
