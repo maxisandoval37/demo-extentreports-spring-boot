@@ -1,4 +1,4 @@
-# 🚀 Configuración de GitHub Pages con Maven, GitHub Actions y Extent Reports
+# 🚀 Configuración de GitHub Pages con Maven, GitHub Actions y Extent Reports (para los tests)
 
 ## 📌 1) Crear rama `gh-pages`
 
