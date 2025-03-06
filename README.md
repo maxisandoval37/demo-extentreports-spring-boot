@@ -62,8 +62,19 @@ jobs:
         publish_dir: ./gh-pages
 ```
 
+## 🛠️ 4) Agregar la dependencia de extentreports en el pom
 
-## 🛠️ 4) Crear y Extender la Clase BaseTest
+```xml
+
+        <dependency>
+            <groupId>com.aventstack</groupId>
+            <artifactId>extentreports</artifactId>
+            <version>5.0.9</version>
+        </dependency>
+
+```
+
+## 🛠️ 5) Crear y Extender la Clase BaseTest
 
 Es necesario crear y extender de la siguiente clase para los tests con **extentreports**:
 
@@ -81,6 +92,8 @@ Es necesario crear y extender de la siguiente clase para los tests con **extentr
 ## 📖 Documentación Relacionada
 
 🔗 [Publicar paquetes Java con Maven en GitHub Actions](https://docs.github.com/en/actions/publishing-packages/publishing-java-packages-with-maven)
+
+🔗 [Getting Started](https://extentreports.com/docs/versions/5/java/index.html)
 
 ---
 
