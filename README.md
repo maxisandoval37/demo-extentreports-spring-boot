@@ -62,7 +62,7 @@ jobs:
         publish_dir: ./gh-pages
 ```
 
-## 🛠️ 4) Agregar la dependencia de extentreports en el pom
+## 🛰 4) Agregar la dependencia de extentreports en el pom
 
 ```xml
 
